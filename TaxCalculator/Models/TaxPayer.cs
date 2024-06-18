@@ -9,7 +9,7 @@ namespace TaxCalculator.Data
         public string FullName { get; set; }
 
         [Required]
-        [Range(10000, 9999999999, ErrorMessage = "Invalid SSN number. It must has between 5} up to 10 digits.")]
+        [Range(10000, 9999999999, ErrorMessage = "Invalid SSN number. It must be between 5 and 10 digits.")]
         public long SSN { get; set; }
 
         [Required]
